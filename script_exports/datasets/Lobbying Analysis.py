@@ -14,7 +14,7 @@
 import sovai as sov
 sov.token_auth(token="visit https://sov.ai/profile for your token")
 
-# In[3]:
+# In[4]:
 
 
 import sovai as sov
@@ -25,7 +25,7 @@ import datetime
 
 sov.token_auth(token="visit https://sov.ai/profile for your token")
 
-df_lobbying = sov.data("lobbying",verbose=False, start_date=datetime.datetime.now() - datetime.timedelta(days=50))
+df_lobbying = sov.data("lobbying",verbose=False)
 
 df_lobbying
 
